@@ -10,7 +10,9 @@ import Effect from './Effect';
 import Fetch from './fetch';
 import State  from './State';
 import Titles from './Useeffectexp';
-import Parent from './Parent';
+// import Parent from './Parent';
+import ChildE from './Child';
+import Counter from './reference';
 // import Test from './Test'
   function App() {
   const [color, setColor] = useState("red");
@@ -61,8 +63,10 @@ import Parent from './Parent';
       <State />
       <Effect />
       {/* <Test /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <ChildE />
   <Titles />
+  <Counter />
      
      
     </>
